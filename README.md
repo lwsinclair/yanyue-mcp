@@ -1,4 +1,5 @@
-# Yanyue MCP <img src="https://www.Yanyue.cn/favicon.ico" style="zoom:25%;" />
+# Yanyue MCP <img src="https://www.Yanyue.cn/favicon.ico" width="16" style="vertical-align: middle;" />
+
 [![smithery badge](https://smithery.ai/badge/@gandli/yanyue-mcp)](https://smithery.ai/server/@gandli/yanyue-mcp)
 
 An MCP server that fetches cigarette data from Yanyue (Yanyue.cn).  
