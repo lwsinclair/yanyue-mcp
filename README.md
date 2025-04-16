@@ -1,4 +1,5 @@
 # Yanyue MCP <img src="https://www.Yanyue.cn/favicon.ico" style="zoom:25%;" />
+[![smithery badge](https://smithery.ai/badge/@gandli/yanyue-mcp)](https://smithery.ai/server/@gandli/yanyue-mcp)
 
 An MCP server that fetches cigarette data from Yanyue (Yanyue.cn).  
 It provides the following tool:
@@ -13,6 +14,15 @@ It provides the following tool:
 
 ## Installation
 
+### Installing via Smithery
+
+To install yanyue-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@gandli/yanyue-mcp):
+
+```bash
+npx -y @smithery/cli install @gandli/yanyue-mcp --client claude
+```
+
+### Manual Installation
 1. Clone the repository and install dependencies:
 
 ```bash
@@ -30,6 +40,7 @@ npm run build
 # Or use Bun:
 bun run build
 ```
+
 
 ## MCP Client Configuration
 
