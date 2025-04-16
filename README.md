@@ -1,46 +1,46 @@
-# YanYue MCP
+# Yanyue MCP <img src="https://www.Yanyue.cn/favicon.ico" style="zoom:25%;" />
 
-一个 MCP server，从烟悦网(yanyue.cn)获取卷烟数据。
-它提供以下工具：
+An MCP server that fetches cigarette data from Yanyue (Yanyue.cn).  
+It provides the following tool:
 
-• `searchCigarettes(keyword: str)`：根据关键词搜索卷烟信息
+• `searchCigarettes(keyword: str)`: Search for cigarette information based on a keyword.
 
-## 系统要求
+## System Requirements
 
-• Node.js 18.16.0 或更高版本
-• npm 9.5.1 或更高版本
-• 推荐使用 Bun 以获得更好性能
+• Node.js version 18.16.0 or higher  
+• npm version 9.5.1 or higher  
+• Bun is recommended for better performance
 
-## 安装
+## Installation
 
-1. 克隆仓库并安装依赖：
+1. Clone the repository and install dependencies:
 
 ```bash
-git clone --depth 1 git@gandli:yanyue-mcp/yanyue-mcp.git
-cd yanyue-mcp
+git clone --depth 1 git@gandli:Yanyue-mcp/Yanyue-mcp.git
+cd Yanyue-mcp
 npm install
-# 或使用 Bun:
+# Or use Bun:
 bun install
 ```
 
-2. 构建项目：
+2. Build the project:
 
 ```bash
 npm run build
-# 或使用 Bun:
+# Or use Bun:
 bun run build
 ```
 
-## MCP 客户端配置
+## MCP Client Configuration
 
-在您的 MCP 客户端配置文件(config.json)中添加以下配置：
+Add the following configuration to your MCP client’s `config.json`:
 
 ```json
 {
   "mcpServers": {
-    "yanyue_mcp": {
-      "name": "YanYue Cigarette Data",
-      "description": "从烟悦网获取卷烟数据",
+    "Yanyue_mcp": {
+      "name": "Yanyue Cigarette Data",
+      "description": "Fetch cigarette data from Yanyue",
       "type": "stdio",
       "command": "node",
       "args": ["path/to/build/index.js"]
