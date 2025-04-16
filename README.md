@@ -60,3 +60,7 @@ Add the following configuration to your MCP client’s `config.json`:
   }
 }
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=gandli/yanyue-mcp&type=Date)](https://www.star-history.com/#gandli/yanyue-mcp&Date)
