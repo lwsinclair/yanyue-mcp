@@ -1,0 +1,26 @@
+{
+  "name": "yanyue-mcp",
+  "version": "0.0.1",
+  "description": "烟悦网数据服务 MCP Server",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "cigarette": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\""
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.4.0"
+  }
+}
