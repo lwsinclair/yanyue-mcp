@@ -23,25 +23,13 @@ npm install
 bun install
 ```
 
-2. 构建项目（如果需要）：
+2. 构建项目：
 
 ```bash
 npm run build
 # 或使用 Bun:
 bun run build
 ```
-
-## 使用方式
-
-运行服务器：
-
-```bash
-node build/index.js
-# 或使用 Bun:
-bun run build/index.js
-```
-
-服务器使用标准输入输出(stdio)进行通信。
 
 ## MCP 客户端配置
 
@@ -53,11 +41,9 @@ bun run build/index.js
     "yanyue_mcp": {
       "name": "YanYue Cigarette Data",
       "description": "从烟悦网获取卷烟数据",
-      "transport": {
-        "type": "stdio",
-        "command": "node",
-        "args": ["/path/to/build/index.js"],
-      },
+      "type": "stdio",
+      "command": "node",
+      "args": ["path/to/build/index.js"]
     }
   }
 }
