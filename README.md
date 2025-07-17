@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/gandli-yanyue-mcp-badge.png)](https://mseep.ai/app/gandli-yanyue-mcp)
+
 # Yanyue MCP <img src="https://www.Yanyue.cn/favicon.ico" width="16" style="vertical-align: middle;" />
 
 [![smithery badge](https://smithery.ai/badge/@gandli/yanyue-mcp)](https://smithery.ai/server/@gandli/yanyue-mcp)
